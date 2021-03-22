@@ -4,7 +4,7 @@ POC that simulates an academic class registration system
 Flask application, that, when runs, will allow users to interact with and populate an academic class registration system based on the 
 below requirements.
 
-The requirements are:
+# Requirements:
 1. Create a simple API that implements an academic class registration system with REST endpoints that provide the below features. A UI is not needed.
 2. Create Courses
 3. Create Professors
@@ -22,10 +22,14 @@ are acceptable.
 14. Treat this as a proof of concept, so documentation is not important.
 
 
-endpoints:
+# Endpoints:
 
-/course             supports both GET(id) and POST(id and name)
-/student            supports both GET(id) and POST(name)
-/professor          supports both GET(id) and POST(name)
-/register_student   supports POST(student_id and course_id)
-/assign_professor   supports POST(professor_id and course_id)
+/course: supports both GET(id) and POST(id and name)
+
+/student: supports both GET(id) and POST(name)
+
+/professor: supports both GET(id) and POST(name)
+
+/register_student: supports POST(student_id and course_id)
+
+/assign_professor:supports POST(professor_id and course_id)
