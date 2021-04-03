@@ -24,6 +24,8 @@ are acceptable.
 
 # Endpoints:
 
+If testing this locally with postman for example, these endpoints will be appended to localhost...
+
 /course: supports both GET(id) and POST(id and name)
 
 /student: supports both GET(id) and POST(name)
